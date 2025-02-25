@@ -4,7 +4,7 @@ from mcts import MCTS, Node
 from eda import EDA
 
 # search settings
-search_method = "EDA"  # ["EDA", "MCTS"]
+search_method = "MCTS"  # ["EDA", "MCTS"]
 mcts_iterations = 10000
 eda_iterations = 10
 eda_population_size = 1000

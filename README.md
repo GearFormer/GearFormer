@@ -55,6 +55,10 @@ Monte Carlo tree search and Estimation of Distribution Algorithm for gear train 
 To run:
 
 <pre>
+export PYTHONPATH=$PYTHONPATH:/app/
+export PYTHONPATH=$PYTHONPATH:/app/gearformer_model
+export PYTHONPATH=$PYTHONPATH:/app/simulator
+
 cd gearformer_search
 
 python run.py

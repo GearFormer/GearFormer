@@ -206,6 +206,12 @@
         }
     ],
     "vocab": {
+        "<start>": [
+            "<start>"
+        ],
+        "<end>": [
+            "<end>"
+        ],
         "Translate": [
             "translate_plus",
             "translate_minus"

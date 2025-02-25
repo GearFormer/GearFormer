@@ -1,1 +1,0 @@
-import gear_train_simulator.components.spur_gears

@@ -3,7 +3,7 @@ import numpy as np
 import json
 import math
 
-with open("output_EDA.json", 'r') as file:
+with open("gearformer_search/data/output_EDA.json", 'r') as file:
     data = json.load(file)
 
 N = 30

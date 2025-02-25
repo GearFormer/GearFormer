@@ -1,5 +1,6 @@
-from gear_train_simulator.gear_train_simulator import Simulator
-from gear_design_dl.gear_design_model.utils.helper import is_physically_feasible
+from simulator.gear_train_simulator import Simulator
+from gearformer_model.utils.helper import is_physically_feasible
+from gearformer_model.utils.config_file import config
 from gearformer import autocomplete
 import json
 import signal
@@ -21,8 +22,9 @@ class EDA:
     def __init__(self, num_variables, init_pop_size, trunc_rate, problem, hybrid_mode=False):
         self.hybrid_mode = hybrid_mode
 
-        self.language_path = "gear_train_simulator/gear_train_language/language.json"
-        self.catalogue_path = "gear_train_simulator/components/catalogue.json"
+        args = config()
+        self.language_path = args.language_path
+        self.catalogue_path = args.catalogue_path
 
         with open(self.language_path, 'r') as file:
             self.language = json.load(file)
@@ -409,4 +411,5 @@ class EDA:
                     json.dump(best, file3, indent=4)
                 file3.close()
         print(obj)
+        input()
         return obj

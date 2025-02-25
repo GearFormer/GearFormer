@@ -3,9 +3,9 @@ import argparse
 
 def config():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--language_path', type=str, default="utils/language.json", help='path to the language.json')
-    parser.add_argument('--catalogue_path', type=str, default="utils/catalogue.json", help='path to the catalogue.json')
-    parser.add_argument('--checkpoint_path', type=str, default="/app/gearformer_model/models", help = "path to the checkpoint folder")
+    parser.add_argument('--language_path', type=str, default="/app/gearformer_model/utils/language.json", help='path to the language.json')
+    parser.add_argument('--catalogue_path', type=str, default="/app/gearformer_model/utils/catalogue.json", help='path to the catalogue.json')
+    parser.add_argument('--checkpoint_path', type=str, default="/app/gearformer_model/checkpoints", help = "path to the checkpoint folder")
     parser.add_argument('--train_data_path', type=str, default="/app/dataset/train_data.csv", help = "path to the train data folder")
     parser.add_argument('--val_data_path', type=str, default="/app/dataset/val_data.csv", help = "path to the val or test data folder")
     parser.add_argument('--epoch', type=int, default=19, help = "number of epochs")

@@ -19,7 +19,7 @@ class GearSystem(om.Group):
         input_data = self.options['input_data']
         seq = input_data["gear_train_sequence"]
 
-        with open("components/catalogue.json", 'r') as file:
+        with open("/app/gearformer_model/utils/catalogue.json", 'r') as file:
             components = json.load(file)
 
         comp_idx = 0
