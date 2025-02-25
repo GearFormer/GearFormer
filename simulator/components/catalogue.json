@@ -1,0 +1,389 @@
+{
+  "SH-*":  {
+    "outside_dia": 0.01,
+    "weight": 0.0
+  },
+  "SH-100":  {
+    "outside_dia": 0.01,
+    "total_length": 0.1,
+    "weight": 0.061653756
+  },
+  "SH-200": {
+    "outside_dia": 0.01,
+    "total_length": 0.2,
+    "weight": 0.123307512
+  },
+  "SH-300": {
+    "outside_dia": 0.01,
+    "total_length": 0.3,
+    "weight": 0.184961267
+  },
+  "SH-400": {
+    "outside_dia": 0.01,
+    "total_length": 0.4,
+    "weight": 0.246615023
+  },
+  "SH-500": {
+    "outside_dia": 0.01,
+    "total_length": 0.5,
+    "weight": 0.308268779
+  },
+  "MSGA1.5-20":  {
+    "no_of_teeth": 20,
+    "pitch_dia": 0.03,
+    "outside_dia": 0.033,
+    "total_length": 0.025,
+    "weight": 0.098,
+    "bore_dia": 0.012,
+    "price": 82.47
+  },
+  "MSGA1.5-40":  {
+    "no_of_teeth": 40,
+    "pitch_dia": 0.06,
+    "outside_dia": 0.063,
+    "total_length": 0.025,
+    "weight": 0.37,
+    "bore_dia": 0.016,
+    "price": 134.20
+  },
+  "MSGA1.5-60":  {
+    "no_of_teeth": 60,
+    "pitch_dia": 0.09,
+    "outside_dia": 0.093,
+    "total_length": 0.025,
+    "weight": 0.77,
+    "bore_dia": 0.025,
+    "price": 190.79
+  },
+  "MSGA1.5-80":  {
+    "no_of_teeth": 80,
+    "pitch_dia": 0.12,
+    "outside_dia": 0.123,
+    "total_length": 0.025,
+    "weight": 1.39,
+    "bore_dia": 0.02,
+    "price": 264.83
+  },
+  "MSGA2-18":  {
+    "no_of_teeth": 18,
+    "pitch_dia": 0.036,
+    "outside_dia": 0.04,
+    "total_length": 0.03,
+    "weight": 0.19,
+    "bore_dia": 0.012,
+    "price": 88.60
+  },
+  "MSGA2-25":  {
+    "no_of_teeth": 25,
+    "pitch_dia": 0.05,
+    "outside_dia": 0.054,
+    "total_length": 0.03,
+    "weight": 0.33,
+    "bore_dia": 0.016,
+    "price": 110.01
+  },
+  "MSGA2-40":  {
+    "no_of_teeth": 40,
+    "pitch_dia": 0.08,
+    "outside_dia": 0.084,
+    "total_length": 0.03,
+    "weight": 0.84,
+    "bore_dia": 0.02,
+    "price": 161.74
+  },
+  "MSGA2-60":  {
+    "no_of_teeth": 60,
+    "pitch_dia": 0.12,
+    "outside_dia": 0.124,
+    "total_length": 0.03,
+    "weight": 1.84,
+    "bore_dia": 0.025,
+    "price": 242.78
+  },
+  "MSGA2.5-15":  {
+    "no_of_teeth": 15,
+    "pitch_dia": 0.0376,
+    "outside_dia": 0.0425,
+    "total_length": 0.037,
+    "weight": 0.23,
+    "bore_dia": 0.015,
+    "price": 93.44
+  },
+  "MSGA2.5-40":  {
+    "no_of_teeth": 40,
+    "pitch_dia": 0.1,
+    "outside_dia": 0.105,
+    "total_length": 0.037,
+    "weight": 1.61,
+    "bore_dia": 0.025,
+    "price": 213.55
+  },
+  "MSGA2.5-55":  {
+    "no_of_teeth": 55,
+    "pitch_dia": 0.1375,
+    "outside_dia": 0.1425,
+    "total_length": 0.037,
+    "weight": 3.06,
+    "bore_dia": 0.030,
+    "price": 305.75
+  },
+  "MSGA2.5-70":  {
+    "no_of_teeth": 70,
+    "pitch_dia": 0.175,
+    "outside_dia": 0.18,
+    "total_length": 0.037,
+    "weight": 4.24,
+    "bore_dia": 0.04,
+    "price": 394.83
+  },
+  "MSGA3-15":  {
+    "no_of_teeth": 15,
+    "pitch_dia": 0.045,
+    "outside_dia": 0.051,
+    "total_length": 0.045,
+    "weight": 0.4,
+    "bore_dia": 0.018,
+    "price": 105.27
+  },
+  "MSGA3-30":  {
+    "no_of_teeth": 30,
+    "pitch_dia": 0.09,
+    "outside_dia": 0.096,
+    "total_length": 0.045,
+    "weight": 1.6,
+    "bore_dia": 0.028,
+    "price": 194.93
+  },
+  "MSGA3-45":  {
+    "no_of_teeth": 45,
+    "pitch_dia": 0.135,
+    "outside_dia": 0.141,
+    "total_length": 0.045,
+    "weight": 3.57,
+    "bore_dia": 0.03,
+    "price": 323.50
+  },
+  "MSGA3-60":  {
+    "no_of_teeth": 60,
+    "pitch_dia": 0.18,
+    "outside_dia": 0.186,
+    "total_length": 0.045,
+    "weight": 5.31,
+    "bore_dia": 0.035,
+    "price": 452.91
+  },
+  "MRGF1.5-500": {
+    "module": 1.5,
+    "no_of_teeth": 106,
+    "total_length": 0.49951,
+    "face_width": 0.015,
+    "height": 0.02,
+    "height_to_pitch": 0.0185,
+    "weight": 1.09,
+    "price": 646.40
+  },
+  "MRGF2-500": {
+    "module": 2.0,
+    "no_of_teeth": 80,
+    "total_length": 0.50265,
+    "face_width": 0.02,
+    "height": 0.025,
+    "height_to_pitch": 0.023,
+    "weight": 1.82,
+    "price": 672.80
+  },
+  "MRGF2.5-500": {
+    "module": 2.5,
+    "no_of_teeth": 64,
+    "total_length": 0.50265,
+    "face_width": 0.025,
+    "height": 0.03,
+    "height_to_pitch": 0.0275,
+    "weight": 2.71,
+    "price": 739.40
+  },
+  "MRGF3-500": {
+    "module": 3.0,
+    "no_of_teeth": 53,
+    "total_length": 0.49951,
+    "face_width": 0.03,
+    "height": 0.035,
+    "height_to_pitch": 0.032,
+    "weight": 3.76,
+    "price": 780.80
+  },
+  "SWG1-R1": {
+    "no_of_teeth": 1,
+    "module": 1.0,
+    "pitch_dia": 0.016,
+    "outside_dia": 0.018,
+    "total_length": 0.032,
+    "weight": 0.037,
+    "bore_dia": 0.008,
+    "price": 72.95
+  },
+  "AG1-20R1": {
+    "no_of_teeth": 20,
+    "pitch_dia": 0.02,
+    "outside_dia": 0.023,
+    "total_length": 0.02,
+    "weight": 0.038,
+    "bore_dia": 0.006,
+    "price": 35.63
+  },
+  "AG1-40R1": {
+    "no_of_teeth": 40,
+    "pitch_dia": 0.04,
+    "outside_dia": 0.043,
+    "total_length": 0.02,
+    "weight": 0.13,
+    "bore_dia": 0.008,
+    "price": 61.69
+  },
+  "AG1-60R1": {
+    "no_of_teeth": 60,
+    "pitch_dia": 0.06,
+    "outside_dia": 0.063,
+    "total_length": 0.02,
+    "weight": 0.29,
+    "bore_dia": 0.01,
+    "price": 95.27
+  },
+  "MMSG2-20R": {
+    "no_of_teeth": 20,
+    "pitch_dia": 0.04,
+    "outside_dia": 0.0427,
+    "mounting_distance": 0.035,
+    "total_length": 0.02198,
+    "weight": 0.14,
+    "bore_dia": 0.012,
+    "price": 144.68
+  },
+  "MMSG2-20L": {
+    "no_of_teeth": 20,
+    "pitch_dia": 0.04,
+    "outside_dia": 0.0427,
+    "mounting_distance": 0.035,
+    "total_length": 0.02198,
+    "weight": 0.14,
+    "bore_dia": 0.012,
+    "price": 144.68
+  },
+  "SBSG2-3020R": {
+    "no_of_teeth": 30,
+    "pitch_dia": 0.06,
+    "outside_dia": 0.0616,
+    "mounting_distance": 0.04,
+    "total_length": 0.0266,
+    "weight": 0.26,
+    "bore_dia": 0.012,
+    "price": 142.18
+  },
+  "SBSG2-2030L": {
+    "no_of_teeth": 20,
+    "pitch_dia": 0.04,
+    "outside_dia": 0.04355,
+    "mounting_distance": 0.045,
+    "total_length": 0.02491,
+    "weight": 0.13,
+    "bore_dia": 0.01,
+    "price": 142.18
+  },
+  "SBSG2-4020R": {
+    "no_of_teeth": 40,
+    "pitch_dia": 0.08,
+    "outside_dia": 0.08099,
+    "mounting_distance": 0.045,
+    "total_length": 0.03226,
+    "weight": 0.51,
+    "bore_dia": 0.012,
+    "price": 186.12
+  },
+  "SBSG2-2040L": {
+    "no_of_teeth": 20,
+    "pitch_dia": 0.04,
+    "outside_dia": 0.0441,
+    "mounting_distance": 0.06,
+    "total_length": 0.03404,
+    "weight": 0.19,
+    "bore_dia": 0.012,
+    "price": 186.12
+  },
+  "SBSG2-4515R": {
+    "no_of_teeth": 45,
+    "pitch_dia": 0.09,
+    "outside_dia": 0.09067,
+    "mounting_distance": 0.04,
+    "total_length": 0.03029,
+    "weight": 0.6,
+    "bore_dia": 0.012,
+    "price": 206.74
+  },
+  "SBSG2-1545L": {
+    "no_of_teeth": 15,
+    "pitch_dia": 0.03,
+    "outside_dia": 0.03478,
+    "mounting_distance": 0.06,
+    "total_length": 0.02966,
+    "weight": 0.095,
+    "bore_dia": 0.01,
+    "price": 206.74
+  },
+  "MHP1-0453R": {
+    "no_of_teeth": 45,
+    "pitch_dia": 0.048,
+    "outside_dia": 0.048,
+    "mounting_distance": 0.019,
+    "total_length": 0.0163,
+    "offset": 0.01,
+    "weight": 0.15
+  },
+  "MHP1-3045L": {
+    "no_of_teeth": 3,
+    "pitch_dia": 0.0103,
+    "outside_dia": 0.0103,
+    "mounting_distance": 0.127,
+    "total_length": 0.113,
+    "offset": 0.01,
+    "shaft_dia": 0.0221,
+    "weight": 0.29
+  },
+  "MHP1-0602R": {
+    "no_of_teeth": 60,
+    "pitch_dia": 0.063,
+    "outside_dia": 0.063,
+    "mounting_distance": 0.021,
+    "total_length": 0.0178,
+    "offset": 0.018,
+    "weight": 0.29
+  },
+  "MHP1-2060L": {
+    "no_of_teeth": 2,
+    "pitch_dia": 0.0128,
+    "outside_dia": 0.0128,
+    "mounting_distance": 0.134,
+    "total_length": 0.12,
+    "offset": 0.018,
+    "shaft_dia":0.0221,
+    "weight": 0.28
+  },
+  "MHP1-0451R": {
+    "no_of_teeth": 45,
+    "pitch_dia": 0.048,
+    "outside_dia": 0.004863,
+    "mounting_distance": 0.019,
+    "total_length": 0.0165,
+    "offset": 0.014,
+    "weight": 0.16
+  },
+  "MHP1-1045L": {
+    "no_of_teeth": 1,
+    "pitch_dia": 0.0101,
+    "outside_dia": 0.0101,
+    "mounting_distance": 0.115,
+    "total_length": 0.104,
+    "offset": 0.014,
+    "shaft_dia": 0.0201,
+    "weight": 0.22
+  }
+}

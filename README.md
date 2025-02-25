@@ -21,27 +21,38 @@ val.csv
 test.csv
 </pre>
 
-**Loading and evaluating the GearFormer model**
+**Evaluating the GearFormer model**
+
+Specify the checkpoints you'd like to evaluate in /gearformer_model/utils/config_file.py
+
+<pre>
+cd ../gearformer_model
+python evaluation.py --val_data_path [path to test_data.csv]
+</pre>
+
+This creates a new csv file that you will use in the next step.
 
 <pre>
 cd ../simulator
-python evaluating_with_simulator.py --csv_path  path/to/csv/file/for/desired/epoch/available/in/checkpoint/folder
+python evaluating_with_simulator.py --csv_path [path to csv file generated in the above step]
 </pre>
 
+To evaluate with a random baseline:
 
-And to evaluate on the test set:
 <pre>
 cd ../gearformer_model
-python evaluation.py --lr 0.0001 --model_name GearFormer --checkpoint_path path/to/checkpoint/folder --encoder_chackpoint_name name/of/the/encoder/checkpoint/you/want --decoder_chackpoint_name name/of/the/decoder/checkpoint/you/want --val_data_path path/to/test.csv/you generated --WWL 1 --BS 1024
-python evaluating_with_simulator.py --csv_path path/to/csv/file/generated/in/previous/step
+python evaluation_random.py --val_data_path [path to test_data.csv]
+
+cd ../simulator
+python evaluating_with_simulator.py --csv_path [path to csv file generated in the above]
 </pre>
 
 
-### Search methods for gear train design
+**Search (including hybrid) methods for gear train design**
 
-Monte Carlo tree search and Estimation of Distribution Algorithm for gear train design
+Monte Carlo tree search and Estimation of Distribution Algorithm for gear train design.
 
-<h4>To run:</h4>
+To run:
 
 <pre>
 cd gearformer_search
@@ -49,7 +60,7 @@ cd gearformer_search
 python run.py
 </pre>
 
-<h4>Change the search settings at the top of the run.py file</h4>
+Change the search settings at the top of the run.py file.
 
 For the paper, we ran:
 1. EDA
