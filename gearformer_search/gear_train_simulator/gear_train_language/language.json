@@ -1,0 +1,320 @@
+{
+    "grammar": [
+        {
+            "LHS": "<start>",
+            "RHS": [
+                ["Translate", "Shaft"],
+                ["MRGF1.5", "Mesh", "MSGA1.5"],
+                ["MRGF2", "Mesh", "MSGA2"],
+                ["MRGF2.5", "Mesh", "MSGA2.5"],
+                ["MRGF3", "Mesh", "MSGA3"]
+            ]
+        },
+        {
+            "LHS": "Shaft",
+            "RHS": [
+                ["MSGA1.5", "Mesh", "MSGA1.5"],
+                ["MSGA1.5", "Mesh", "MRGF1.5"],
+                ["MSGA2", "Mesh", "MSGA2"],
+                ["MSGA2", "Mesh", "MRGF2"],
+                ["MSGA2.5", "Mesh", "MSGA2.5"],
+                ["MSGA2.5", "Mesh", "MRGF2.5"],
+                ["MSGA3", "Mesh", "MSGA3"],
+                ["MSGA3", "Mesh", "MRGF3"],
+                ["SWG1", "Mesh", "AG1"],
+                ["AG1", "Mesh", "SWG1"],
+                ["MMSG2-20R", "Mesh", "MMSG2-20L"],
+                ["SBSG2-3020R", "Mesh", "SBSG2-2030L"],
+                ["SBSG2-4020R", "Mesh", "SBSG2-2040L"],
+                ["SBSG2-4515R", "Mesh", "SBSG2-1545L"],
+                ["SBSG2-2030L", "Mesh", "SBSG2-3020R"],
+                ["SBSG2-2040L", "Mesh", "SBSG2-4020R"],
+                ["SBSG2-1545L", "Mesh", "SBSG2-4515R"],
+                ["MHP1-0453R", "Mesh", "MHP1-3045L"],
+                ["MHP1-0602R", "Mesh", "MHP1-2060L"],
+                ["MHP1-0451R", "Mesh", "MHP1-1045L"],
+                ["MHP1-3045L", "Mesh", "MHP1-0453R"],
+                ["MHP1-2060L", "Mesh", "MHP1-0602R"],
+                ["MHP1-1045L", "Mesh", "MHP1-0451R"],
+                ["<end>"]
+            ]
+        },
+        {
+            "LHS": "MSGA1.5",
+            "RHS": [
+                ["Mesh", "MSGA1.5"],
+                ["Mesh", "MRGF1.5"],
+                ["Translate", "Shaft"],
+                ["<end>"]
+            ]
+        },
+        {
+            "LHS": "MSGA2",
+            "RHS": [
+                ["Mesh", "MSGA2"],
+                ["Mesh", "MRGF2"],
+                ["Translate", "Shaft"],
+                ["<end>"]
+            ]
+        },
+        {
+            "LHS": "MSGA2.5",
+            "RHS": [
+                ["Mesh", "MSGA2.5"],
+                ["Mesh", "MRGF2.5"],
+                ["Translate", "Shaft"],
+                ["<end>"]
+            ]
+        },
+        {
+            "LHS": "MSGA3",
+            "RHS": [
+                ["Mesh", "MSGA3"],
+                ["Mesh", "MRGF3"],
+                ["Translate", "Shaft"],
+                ["<end>"]
+            ]
+        },
+        {
+            "LHS": "MRGF1.5",
+            "RHS": [
+                ["<end>"]
+            ]
+        },
+        {
+            "LHS": "MRGF2",
+            "RHS": [
+                ["<end>"]
+            ]
+        },
+        {
+            "LHS": "MRGF2.5",
+            "RHS": [
+                ["<end>"]
+            ]
+        },
+        {
+            "LHS": "MRGF3",
+            "RHS": [
+                ["<end>"]
+            ]
+        },
+        {
+            "LHS": "AG1",
+            "RHS": [
+                ["Translate", "Shaft"],
+                ["<end>"]
+            ]
+        },
+        {
+            "LHS": "SWG1",
+            "RHS": [
+                ["Translate", "Shaft"],
+                ["<end>"]
+            ]
+        },
+        {
+            "LHS": "MMSG2-20L",
+            "RHS": [
+                ["Translate", "Shaft"],
+                ["<end>"]
+            ]
+        },
+        {
+            "LHS": "SBSG2-2030L",
+            "RHS": [
+                ["Translate", "Shaft"],
+                ["<end>"]
+            ]
+        },
+        {
+            "LHS": "SBSG2-2040L",
+            "RHS": [
+                ["Translate", "Shaft"],
+                ["<end>"]
+            ]
+        },
+        {
+            "LHS": "SBSG2-1545L",
+            "RHS": [
+                ["Translate", "Shaft"],
+                ["<end>"]
+            ]
+        },
+        {
+            "LHS": "SBSG2-3020R",
+            "RHS": [
+                ["Translate", "Shaft"],
+                ["<end>"]
+            ]
+        },
+        {
+            "LHS": "SBSG2-4020R",
+            "RHS": [
+                ["Translate", "Shaft"],
+                ["<end>"]
+            ]
+        },
+        {
+            "LHS": "SBSG2-4515R",
+            "RHS": [
+                ["Translate", "Shaft"],
+                ["<end>"]
+            ]
+        },
+        {
+            "LHS": "MHP1-3045L",
+            "RHS": [
+                ["Translate", "Shaft"],
+                ["<end>"]
+            ]
+        },
+        {
+            "LHS": "MHP1-2060L",
+            "RHS": [
+                ["Translate", "Shaft"],
+                ["<end>"]
+            ]
+        },
+        {
+            "LHS": "MHP1-1045L",
+            "RHS": [
+                ["Translate", "Shaft"],
+                ["<end>"]
+            ]
+        },
+        {
+            "LHS": "MHP1-0453R",
+            "RHS": [
+                ["Translate", "Shaft"],
+                ["<end>"]
+            ]
+        },
+        {
+            "LHS": "MHP1-0602R",
+            "RHS": [
+                ["Translate", "Shaft"],
+                ["<end>"]
+            ]
+        },
+        {
+            "LHS": "MHP1-0451R",
+            "RHS": [
+                ["Translate", "Shaft"],
+                ["<end>"]
+            ]
+        }
+    ],
+    "vocab": {
+        "<start>": [
+            "<start>"
+        ],
+        "<end>": [
+            "<end>"
+        ],
+        "Translate": [
+            "translate_plus",
+            "translate_minus"
+        ],
+        "Mesh": [
+            "mesh_1st-ortho_plus",
+            "mesh_1st-ortho_minus",
+            "mesh_2nd-ortho_plus",
+            "mesh_2nd-ortho_minus"
+        ],
+        "Shaft": [
+            "SH-*",
+            "SH-100",
+            "SH-200",
+            "SH-300",
+            "SH-400",
+            "SH-500"
+        ],
+        "MSGA1.5": [
+            "MSGA1.5-20",
+            "MSGA1.5-40",
+            "MSGA1.5-60",
+            "MSGA1.5-80"
+        ],
+        "MSGA2": [
+            "MSGA2-18",
+            "MSGA2-25",
+            "MSGA2-40",
+            "MSGA2-60"
+        ],
+        "MSGA2.5": [
+            "MSGA2.5-15",
+            "MSGA2.5-40",
+            "MSGA2.5-55",
+            "MSGA2.5-70"
+        ],
+        "MSGA3": [
+            "MSGA3-15",
+            "MSGA3-30",
+            "MSGA3-45",
+            "MSGA3-60"
+        ],
+        "MRGF1.5": [
+            "MRGF1.5-500"
+        ],
+        "MRGF2": [
+            "MRGF2-500"
+        ],
+        "MRGF2.5": [
+            "MRGF2.5-500"
+        ],
+        "MRGF3": [
+            "MRGF3-500"
+        ],
+        "SWG1": [
+            "SWG1-R1"
+        ],
+        "AG1": [
+            "AG1-20R1",
+            "AG1-40R1",
+            "AG1-60R1"
+        ],
+        "MMSG2-20R": [
+            "MMSG2-20R"
+        ],
+        "MMSG2-20L": [
+            "MMSG2-20L"
+        ],
+        "SBSG2-3020R": [
+            "SBSG2-3020R"
+        ],
+        "SBSG2-2030L": [
+            "SBSG2-2030L"
+        ],
+        "SBSG2-4020R": [
+            "SBSG2-4020R"
+        ],
+        "SBSG2-2040L": [
+            "SBSG2-2040L"
+        ],
+        "SBSG2-4515R": [
+            "SBSG2-4515R"
+        ],
+        "SBSG2-1545L": [
+            "SBSG2-1545L"
+        ],
+        "MHP1-0453R": [
+            "MHP1-0453R"
+        ],
+        "MHP1-3045L": [
+            "MHP1-3045L"
+        ],
+        "MHP1-0602R": [
+            "MHP1-0602R"
+        ],
+        "MHP1-2060L": [
+            "MHP1-2060L"
+        ],
+        "MHP1-0451R": [
+            "MHP1-0451R"
+        ],
+        "MHP1-1045L": [
+            "MHP1-1045L"
+        ]
+    }
+}

@@ -1,0 +1,452 @@
+[
+    {
+        "input_motion_type": "R",
+        "output_motion_type": "T",
+        "output_motion_speed": 0.3125,
+        "output_position": [
+            -0.1,
+            -0.0375,
+            -0.67765
+        ],
+        "output_motion_vector": [
+            0,
+            0,
+            1
+        ]
+    },
+    {
+        "input_motion_type": "R",
+        "output_motion_type": "R",
+        "output_motion_speed": 675.0,
+        "output_position": [
+            -0.67563,
+            0.0,
+            -0.745945
+        ],
+        "output_motion_vector": [
+            0,
+            0,
+            1
+        ]
+    },
+    {
+        "input_motion_type": "R",
+        "output_motion_type": "R",
+        "output_motion_speed": 0.071111111,
+        "output_position": [
+            0.915,
+            0.88925,
+            0.096
+        ],
+        "output_motion_vector": [
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "input_motion_type": "T",
+        "output_motion_type": "T",
+        "output_motion_speed": 1.20754717,
+        "output_position": [
+            0.68015,
+            0.52451,
+            -0.1
+        ],
+        "output_motion_vector": [
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "input_motion_type": "T",
+        "output_motion_type": "R",
+        "output_motion_speed": 73.142857143,
+        "output_position": [
+            0.91865,
+            0.2125,
+            0.128
+        ],
+        "output_motion_vector": [
+            1,
+            0,
+            0
+        ]
+    },
+    {
+        "input_motion_type": "R",
+        "output_motion_type": "R",
+        "output_motion_speed": 40.0,
+        "output_position": [
+            -0.3386,
+            -0.157545,
+            -0.458455
+        ],
+        "output_motion_vector": [
+            1,
+            0,
+            0
+        ]
+    },
+    {
+        "input_motion_type": "T",
+        "output_motion_type": "R",
+        "output_motion_speed": 0.066666667,
+        "output_position": [
+            0.44065,
+            0.0904,
+            0.534
+        ],
+        "output_motion_vector": [
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "input_motion_type": "R",
+        "output_motion_type": "R",
+        "output_motion_speed": 225.0,
+        "output_position": [
+            -0.30135,
+            0.006,
+            0.22865
+        ],
+        "output_motion_vector": [
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "input_motion_type": "T",
+        "output_motion_type": "T",
+        "output_motion_speed": 2.75,
+        "output_position": [
+            1.0053,
+            -0.14073,
+            -0.24349
+        ],
+        "output_motion_vector": [
+            1,
+            0,
+            0
+        ]
+    },
+    {
+        "input_motion_type": "R",
+        "output_motion_type": "R",
+        "output_motion_speed": 1.5,
+        "output_position": [
+            -0.330145,
+            0.31685,
+            0.03613
+        ],
+        "output_motion_vector": [
+            0,
+            0,
+            1
+        ]
+    },
+    {
+        "input_motion_type": "R",
+        "output_motion_type": "R",
+        "output_motion_speed": 7.333333333,
+        "output_position": [
+            0.18321,
+            0.0,
+            0.35702
+        ],
+        "output_motion_vector": [
+            0,
+            0,
+            1
+        ]
+    },
+    {
+        "input_motion_type": "T",
+        "output_motion_type": "T",
+        "output_motion_speed": 45.0,
+        "output_position": [
+            -0.108,
+            0.4271,
+            -0.0089
+        ],
+        "output_motion_vector": [
+            1,
+            0,
+            0
+        ]
+    },
+    {
+        "input_motion_type": "R",
+        "output_motion_type": "R",
+        "output_motion_speed": 600.0,
+        "output_position": [
+            0.1667,
+            -0.036,
+            -0.542455
+        ],
+        "output_motion_vector": [
+            0,
+            0,
+            1
+        ]
+    },
+    {
+        "input_motion_type": "T",
+        "output_motion_type": "R",
+        "output_motion_speed": 4.444444444,
+        "output_position": [
+            0.06515,
+            0.0375,
+            0.027
+        ],
+        "output_motion_vector": [
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "input_motion_type": "R",
+        "output_motion_type": "R",
+        "output_motion_speed": 0.007407407,
+        "output_position": [
+            0.424,
+            0.4847,
+            -0.154555
+        ],
+        "output_motion_vector": [
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "input_motion_type": "R",
+        "output_motion_type": "R",
+        "output_motion_speed": 0.000555556,
+        "output_position": [
+            0.44,
+            -0.715,
+            0.26125
+        ],
+        "output_motion_vector": [
+            0,
+            0,
+            1
+        ]
+    },
+    {
+        "input_motion_type": "R",
+        "output_motion_type": "R",
+        "output_motion_speed": 0.007407407,
+        "output_position": [
+            0.254555,
+            -0.364145,
+            0.54453
+        ],
+        "output_motion_vector": [
+            1,
+            0,
+            0
+        ]
+    },
+    {
+        "input_motion_type": "R",
+        "output_motion_type": "T",
+        "output_motion_speed": 0.849056604,
+        "output_position": [
+            0.0,
+            -0.49951,
+            -0.4825
+        ],
+        "output_motion_vector": [
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "input_motion_type": "R",
+        "output_motion_type": "R",
+        "output_motion_speed": 0.008333333,
+        "output_position": [
+            -0.39172,
+            0.028,
+            -0.578585
+        ],
+        "output_motion_vector": [
+            0,
+            0,
+            1
+        ]
+    },
+    {
+        "input_motion_type": "R",
+        "output_motion_type": "R",
+        "output_motion_speed": 49.090909091,
+        "output_position": [
+            -0.47228,
+            -0.714145,
+            -0.038
+        ],
+        "output_motion_vector": [
+            1,
+            0,
+            0
+        ]
+    },
+    {
+        "input_motion_type": "T",
+        "output_motion_type": "R",
+        "output_motion_speed": 13.714285714,
+        "output_position": [
+            0.87862,
+            0.2089,
+            0.37502
+        ],
+        "output_motion_vector": [
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "input_motion_type": "R",
+        "output_motion_type": "R",
+        "output_motion_speed": 120.0,
+        "output_position": [
+            0.16236,
+            0.014,
+            -0.57745
+        ],
+        "output_motion_vector": [
+            1,
+            0,
+            0
+        ]
+    },
+    {
+        "input_motion_type": "T",
+        "output_motion_type": "R",
+        "output_motion_speed": 0.117777778,
+        "output_position": [
+            0.78866,
+            0.71455,
+            -0.02255
+        ],
+        "output_motion_vector": [
+            1,
+            0,
+            0
+        ]
+    },
+    {
+        "input_motion_type": "R",
+        "output_motion_type": "R",
+        "output_motion_speed": 3200.0,
+        "output_position": [
+            -0.338,
+            -0.444,
+            -0.1035
+        ],
+        "output_motion_vector": [
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "input_motion_type": "T",
+        "output_motion_type": "T",
+        "output_motion_speed": 2.222222222,
+        "output_position": [
+            0.69015,
+            0.2625,
+            -0.61315
+        ],
+        "output_motion_vector": [
+            0,
+            0,
+            1
+        ]
+    },
+    {
+        "input_motion_type": "R",
+        "output_motion_type": "R",
+        "output_motion_speed": 144.0,
+        "output_position": [
+            -0.4,
+            -0.109,
+            -0.136
+        ],
+        "output_motion_vector": [
+            0,
+            0,
+            1
+        ]
+    },
+    {
+        "input_motion_type": "T",
+        "output_motion_type": "T",
+        "output_motion_speed": 30.0,
+        "output_position": [
+            0.51706,
+            -0.39376,
+            -0.124
+        ],
+        "output_motion_vector": [
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "input_motion_type": "R",
+        "output_motion_type": "T",
+        "output_motion_speed": 0.019097222,
+        "output_position": [
+            -0.9673,
+            0.10175,
+            -1.033005
+        ],
+        "output_motion_vector": [
+            0,
+            0,
+            1
+        ]
+    },
+    {
+        "input_motion_type": "T",
+        "output_motion_type": "R",
+        "output_motion_speed": 1.745454545,
+        "output_position": [
+            1.02467,
+            -0.14005,
+            -0.10426
+        ],
+        "output_motion_vector": [
+            1,
+            0,
+            0
+        ]
+    },
+    {
+        "input_motion_type": "T",
+        "output_motion_type": "R",
+        "output_motion_speed": 1.177777778,
+        "output_position": [
+            0.62015,
+            -0.04,
+            0.278585
+        ],
+        "output_motion_vector": [
+            0,
+            0,
+            1
+        ]
+    }
+]

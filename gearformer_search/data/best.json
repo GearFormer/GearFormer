@@ -1,0 +1,35 @@
+{
+    "reward": 0.0,
+    "results": {
+        "id": "0",
+        "input_motion_type": "R",
+        "output_motion_type": "T",
+        "output_position": [
+            -0.11113,
+            -0.15702,
+            0.49951
+        ],
+        "output_motion_vector": [
+            0.0,
+            0.0,
+            1.0
+        ],
+        "output_motion_speed": 0.377358491,
+        "weight": 2.011307512
+    },
+    "seq": [
+        "<start>",
+        "translate_minus",
+        "SH-100",
+        "SBSG2-4020R",
+        "mesh_1st-ortho_minus",
+        "SBSG2-2040L",
+        "translate_minus",
+        "SH-100",
+        "MSGA1.5-20",
+        "mesh_2nd-ortho_plus",
+        "MRGF1.5-500",
+        "<end>"
+    ],
+    "obj": 3.2594303745163575
+}
