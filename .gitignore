@@ -1,0 +1,18 @@
+# Ignore compiled Python files
+*.pyc
+
+# Ignore the build directory
+/build/
+*/__pycache__/
+__pycache__/
+
+/experiments/
+.vscode/
+.idea/
+
+*.pickle
+*.pkl
+*.csv
+*.dict
+
+/train_models

@@ -1,3 +1,4 @@
+import os
 import random
 random.seed(0)
 import numpy as np
@@ -5,7 +6,6 @@ np.random.seed(0)
 import torch
 torch.manual_seed(0)
 from gearformer_model.utils.data_handle import load_data
-import os
 from gearformer_model.utils.config_file import config
 from gearformer_model.models.load_model import loading_model
 

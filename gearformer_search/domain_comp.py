@@ -1,6 +1,7 @@
 import numpy as np
-from gear_design_dl.gear_design_model.utils.helper import is_physically_feasible
-from gear_train_simulator.gear_train_simulator import Simulator
+from gearformer_model.utils.helper import is_physically_feasible
+from gearformer_model.utils.config_file import config
+from simulator.gear_train_simulator import Simulator
 import json
 import itertools
 import signal
@@ -20,11 +21,12 @@ signal.signal(signal.SIGALRM, timeout_handler)
 class DomainComp:
     def __init__(self):
 
-        self.language_path = "gear_train_simulator/gear_train_language/language.json"
+        args = config()
+        self.language_path = args.language_path
+        self.catalogue_path = args.catalogue_path
+
         with open(self.language_path, 'r') as file:
             self.language = json.load(file)
-
-        self.catalogue_path = "gear_design_dl/gear_design_model/utils/catalogue.json"
 
         self.state_tree = self.get_state_tree()
 
@@ -178,14 +180,14 @@ class DomainComp:
             reward = 0
             results = {}
 
-        with open("best.json", 'r') as fileX:
+        with open("data/best.json", 'r') as fileX:
             best = json.load(fileX)
         fileX.close()
         if reward > best["reward"]:
             best["reward"] = reward
             best["seq"] = seq
             best["results"] = results
-        with open("best.json", 'w') as fileY:
+        with open("data/best.json", 'w') as fileY:
             json.dump(best, fileY, indent=4)
 
         return reward, results

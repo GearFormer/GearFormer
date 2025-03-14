@@ -3,7 +3,7 @@ import numpy as np
 
 def compute_weight(gear_train_seq):
 
-    with open("components/catalogue.json", 'r') as file:
+    with open("/app/gearformer_model/utils/catalogue.json", 'r') as file:
         components = json.load(file)
 
     total_weight = 0

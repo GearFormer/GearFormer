@@ -1,12 +1,21 @@
 {
-    "reward": 0.0,
+    "reward": 0.3920491066662787,
     "results": {
         "id": "0",
         "input_motion_type": "R",
         "output_motion_type": "T",
+        "gear_train_sequence": [
+            "<start>",
+            "translate_minus",
+            "SH-100",
+            "MSGA1.5-20",
+            "mesh_1st-ortho_minus",
+            "MRGF1.5-500",
+            "<end>"
+        ],
         "output_position": [
-            -0.11113,
-            -0.15702,
+            -0.1,
+            -0.025,
             0.49951
         ],
         "output_motion_vector": [
@@ -14,22 +23,17 @@
             0.0,
             1.0
         ],
-        "output_motion_speed": 0.377358491,
-        "weight": 2.011307512
+        "output_motion_speed": 0.188679245,
+        "weight": 1.249653756
     },
     "seq": [
         "<start>",
         "translate_minus",
         "SH-100",
-        "SBSG2-4020R",
-        "mesh_1st-ortho_minus",
-        "SBSG2-2040L",
-        "translate_minus",
-        "SH-100",
         "MSGA1.5-20",
-        "mesh_2nd-ortho_plus",
+        "mesh_1st-ortho_minus",
         "MRGF1.5-500",
         "<end>"
     ],
-    "obj": 3.2594303745163575
+    "obj": 4.991071612251812
 }
